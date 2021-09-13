@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+    background-image: linear-gradient(rgb(247, 127, 147), rgb(42, 167, 154));
+}  
+button{ 
+    font-size: 25px;
+    background-color: bisque;
+    border-radius: 20%;
+    color: black;
+}
+h1{
+    font-size: 50px;
+    color: black;
+    text-decoration: underline;
+}
+h3{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}

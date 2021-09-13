@@ -1,0 +1,43 @@
+<html>
+<head>
+ <title> Our Family Book </title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<center style="margin-top: 40px;">
+<h1> My Family Book </h1>
+ <img id="family" src="https://i.postimg.cc/MKdhy06Z/family.jpg"  width="310px" height="380px">
+ <br>
+ <br>
+<button type="button" onclick="family()">NEXT</button>
+<h3 id="one">1. Our Family Book </h3>
+</center>
+    </body>
+    <script>
+        var names=[
+        "2. My Grandfather (R.S. Agarwal)",
+        "3. My Grandmother (Kiran Agarwal)",
+        "4. My Father (Saurabh Agarwal)",
+        "5. My Mother (Saloni Agarwal)",
+        "6. My Sister ( Ishanvi Agarwal)",
+        "7. Me ( Sanjoli Agarwal)"
+        ];
+        var images=[
+            "baba.jpg",
+            "dadi.jpg",
+            "papa.jpg",
+            "mummy.jpg",
+            "ishanvi.jpg",
+            "sanjoli.jpg"
+        ];
+        var i=0;
+        function family(){
+            document.getElementById("one").innerHTML=names[i];
+            document.getElementById("family").src=images[i];
+            i++;
+            if(i==6){
+                i=0;
+            }
+        }
+    </script>
+</html>
